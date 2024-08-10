@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="32dp"
+    android:background="@drawable/bg_border_20_white">
+
+    <ImageView
+        android:id="@+id/ic_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="12dp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="@string/do_you_like_this_app"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/let_us_know_your_experience_5_stars_is_the_best_on_google_play"
+        android:textColor="#747474"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:progressTint="#D9F2F4"
+        android:secondaryProgressTint="#27B8C1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_border_12_white"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tv_submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ratingbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_border_12_white"
+        android:backgroundTint="#27B8C1"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_cancel"
+        app:layout_constraintTop_toBottomOf="@id/ratingbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_gotit"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_border_12_white"
+        android:backgroundTint="#27B8C1"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:text="@string/got_it"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ratingbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

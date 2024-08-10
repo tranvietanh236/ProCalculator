@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ProCaculator</string>
+    <string name="this_action_may_contain_advertising">This action may contain advertising.</string>
+    <string name="_100">100%</string>
+    <string name="language">Language</string>
+    <string name="simple_calculator_for_daily_use">Simple Calculator for Daily Use</string>
+    <string name="our_calculator_app_offers_basic_functions">Our calculator app offers basic functions like addition, subtraction, multiplication, and division. Easy-to-use interface for everyone</string>
+    <string name="accurate_calculator_for_study">Accurate Calculator for Study</string>
+    <string name="whether_you_re_a_student_or_teacher_our_calculator_app_meets_all_your_calculation_needs_with_robust_features_and_reliable_performance">Whether you’re a student or teacher, our calculator app meets all your calculation needs with robust features and reliable performance.</string>
+    <string name="customize_formulas">Customize formulas</string>
+    <string name="customize_formulas_in_this_calculator_app_for_quick_precise_results_perfect_for_students_and_professionals_alike">Customize formulas in this calculator app for quick, precise results. Perfect for students and professionals alike.</string>
+    <string name="simplify_your_calculationss">Simplify your calculationss</string>
+    <string name="instant_access_to_essential_math_formulas">Instant access to essential math formulas</string>
+    <string name="save_continue"><![CDATA[Save & Continue]]></string>
+    <string name="accessibility_service">Accessibility Service.</string>
+    <string name="screen_overlay_access">Screen Overlay Access.</string>
+    <string name="basic_calculator">Basic calculator</string>
+    <string name="customize_formula">Customize \nformula</string>
+    <string name="basic_maths_nformulas">Basic maths \nformulas</string>
+    <string name="history">History</string>
+    <string name="setting">Setting</string>
+    <string name="share">Share</string>
+    <string name="rating">Rating</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="cancel">Cancel</string>
+    <string name="got_it">Got it</string>
+    <string name="submit">Submit</string>
+    <string name="let_us_know_your_experience_5_stars_is_the_best_on_google_play">Let us know your experience 5 stars is the best on Google Play!</string>
+    <string name="do_you_like_this_app">Do you like this app?</string>
+    <string name="Thank_you_for_taking_the_time_to_rate_us_i_m_really_appreciate_that">thank you for taking the time to rate us i m really appreciate that</string>
+    <string name="Thank_You">Thank You</string>
+    <string name="theme">Theme</string>
+    <string name="vibration">Vibration</string>
+    <string name="allow_selective_history_deletion">Allow selective history deletion</string>
+    <string name="automatically_save_calculations">Automatically save calculations</string>
+    <string name="results_save_in_history">Results save in history</string>
+    <string name="keep_device_awake">Keep device awake</string>
+    <string name="long_press_to_copy_value">Long press to copy value</string>
+    <string name="radians">Radians</string>
+    <string name="scientific_mode">Scientific mode</string>
+    <string name="split_the_parentheses_button_into_two_button">Split the parentheses button into two button</string>
+    <string name="add_a_modulo_button">Add a modulo button</string>
+
+</resources>
